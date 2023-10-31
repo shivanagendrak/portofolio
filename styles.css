@@ -1,0 +1,21 @@
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 30px;
+    text-align: center;
+  } 
+
+
+  #myDIV {
+    /*width: 300px;
+    height: 200px;*/
+    padding: 30px;
+    background: red;
+    animation: mymove 5s infinite;
+    text-align: center;
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  }
