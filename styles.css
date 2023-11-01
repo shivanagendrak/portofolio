@@ -2,20 +2,20 @@
     background-color: lightblue;
     color: black;
     padding: 30px;
-    text-align: center;
+    text-align: left;
   } 
 
 
   #myDIV {
     /*width: 300px;
     height: 200px;*/
-    padding: 30px;
+    padding: 0.8px;
     background: red;
-    animation: mymove 5s infinite;
-    text-align: center;
+    animation: mymove 4s infinite;
+    text-align: left;
   }
   
   @keyframes mymove {
-    from {background-color: red;}
-    to {background-color: blue;}
+    from {background-color: rgb(220, 115, 58);}
+    to {background-color: rgba(82, 239, 118, 0.678);}
   }
